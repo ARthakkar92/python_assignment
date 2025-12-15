@@ -29,6 +29,35 @@ The script defines a function called check_password_strength() which takes the p
 
 
 
+## Q2. CPU Health Monitoring Script
+## Description
 
+As a DevOps engineer, monitoring system health is a routine task. This script continuously monitors CPU usage and raises an alert when the usage crosses a defined threshold.
+
+Features
+
+Continuously checks CPU usage of the local system
+
+Displays an alert if CPU usage exceeds 80%
+
+Runs indefinitely until manually stopped
+
+Includes basic error handling to avoid script crashes
+
+## Prerequisites
+
+The script uses the psutil library. Install it using:
+
+pip install psutil
+How It Works
+
+The script uses psutil.cpu_percent() inside a loop to fetch CPU usage. If the usage goes beyond the threshold, an alert message is printed on the console.
+
+## screenshot
+
+<img width="278" height="140" alt="cpu_usage_scrrenshot" src="https://github.com/user-attachments/assets/9125603f-6382-4b36-9008-67d8d42c709d" />
+
+
+<img width="362" height="223" alt="cpu_load_screenshot" src="https://github.com/user-attachments/assets/5d94d6ea-9804-460f-811c-c3986144ac0f" />
 
 
